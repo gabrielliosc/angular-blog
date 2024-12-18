@@ -15,15 +15,25 @@
   border:5px solid rgb(144, 144, 144);
   border-radius: 5px;
   width: 500px;
-  min-width: 500px;
   height: 300px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__description{
   margin-top: 15px;
+  max-width: 500px;
+  margin: 10px auto;
 }
 
 .content__description > p{
   margin-top: 20px;
   color: rgb(198, 197, 197);
+}
+
+.content__description > a {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

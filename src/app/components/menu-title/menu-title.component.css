@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 .container__menu-title{
   color: white;
 }
-
-.container__menu-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'Open Sans', sans-serif;
+.container__menu-title > div {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.container__menu-title > div > img {
+  width: 150px;
 }
 
-.container__menu-title > hr{
+.container__menu-title > div > h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 80px;
+  font-family: "Monsieur La Doulaise", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container__menu-title > div > hr{
   margin-top: 20px;
   margin-bottom: 5px;
 }
